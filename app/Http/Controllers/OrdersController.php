@@ -49,7 +49,7 @@ class OrdersController extends Controller
                     'id' => $order_id,
                     'distance' => $distance,
                     'status' => $order_status
-                ], 200);
+                ], 201);
             }
             else {
                 return response()->json([
